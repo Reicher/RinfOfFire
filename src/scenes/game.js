@@ -1,6 +1,4 @@
-import Planet from '../planet.js'
-import Ship from '../ship.js'
-import Spaceman from '../spaceman.js'
+//import Player from '../player.js'
 import IsoPlugin from 'phaser3-plugin-isometric';
 
 export default class GameScene extends Phaser.Scene {
@@ -14,12 +12,12 @@ export default class GameScene extends Phaser.Scene {
     preload() {
 	console.log("GameScene - preload");
 	this.load.image('tile', 'src/assets/tile.png');
+	this.load.spritesheet('player', 'src/assets/spaceman.png', { frameWidth: 17, frameHeight: 38, startFrame: 0 });
 	this.load.scenePlugin({
 	    key: 'IsoPlugin',
 	    url: IsoPlugin,
 	    sceneKey: 'iso'
 	});
-
     }
     create() {
 	console.log("GameScene - create");
@@ -29,6 +27,10 @@ export default class GameScene extends Phaser.Scene {
 
 	// Add some tiles to our scene
 	this.spawnTiles();
+
+	let player = this.add.isoSprite(0, 0, 0, 'player', this.isoGroup);
+	player.frame = 0
+	//let player = new Player({scene:this,});
     }
 
     spawnTiles() {
