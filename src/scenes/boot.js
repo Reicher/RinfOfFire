@@ -6,7 +6,7 @@ export default class BootScene extends Phaser.Scene {
     }
     preload() {
 	console.log("BootScene - preload");
-	
+
         const progress = this.add.graphics();
 
         // Register a load progress event to show a load bar
@@ -19,10 +19,13 @@ export default class BootScene extends Phaser.Scene {
 			      60);
         });
 
-	this.load.image("ship", "./src/assets/ship.png");
-	this.load.image("space", "./src/assets/space.jpg");
-	this.load.image("planet", "./src/assets/planet.png");
-	this.load.spritesheet('spaceman', './src/assets/spaceman.png', { frameWidth: 16, frameHeight: 32 });
+	this.load.image("tile", "./src/assets/tile.png");
+	this.load.spritesheet('player',
+			      './src/assets/spaceman.png',
+			      { frameWidth: 16,
+				frameHeight: 32,
+				startFrame: 0,
+				margin : 0});
 
 	this.load.on('complete', function () {
             progress.destroy();
@@ -33,4 +36,3 @@ export default class BootScene extends Phaser.Scene {
 	this.scene.start('SplashScene');
     }
 }
- 
