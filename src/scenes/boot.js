@@ -19,9 +19,9 @@ export default class BootScene extends Phaser.Scene {
 			      60);
         });
 
-	this.load.image("tile", "./src/assets/tile.png");
+	this.load.image("tile", "./src/assets/raw/tile.png");
 	this.load.spritesheet('player',
-			      './src/assets/spaceman.png',
+			      './src/assets/raw/player.png',
 			      { frameWidth: 16,
 				frameHeight: 32,
 				startFrame: 0,
