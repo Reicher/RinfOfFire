@@ -6,10 +6,6 @@ Using [phaser 3](https://phaser.io/), [Webpack 4](https://webpack.js.org/) and o
 ## Requirements
 [Node.js](https://nodejs.org) is required to install dependencies and run scripts via `npm`.
 
-## Requirements
-
-[Node.js](https://nodejs.org) is required to install dependencies and run scripts via `npm`.
-
 ## Available Commands
 
 | Command | Description |
