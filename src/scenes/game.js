@@ -1,4 +1,4 @@
-//import Player from '../player.js'
+import World from '../world.js'
 import IsoPlugin from 'phaser3-plugin-isometric';
 
 export default class GameScene extends Phaser.Scene {
@@ -24,32 +24,12 @@ export default class GameScene extends Phaser.Scene {
 	this.iso.projector.origin.setTo(0.5, 0.3);
 
 	// Add some tiles to our scene
-	this.spawnTiles();
+	this.world = new World(this, 10)
 
 	this.player = this.add.isoSprite(0, 0, 0, 'player', this.isoGroup);
     }
 
-    spawnTiles() {
-	var tile;
-
-	for (var xx = 0; xx < 256; xx += 38) {
-	    for (var yy = 0; yy < 256; yy += 38) {
-		tile = this.add.isoSprite(xx, yy, 0, 'tile', this.isoGroup);
-		tile.setInteractive();
-
-		tile.on('pointerover', function() {
-		    this.setTint(0x888888);
-		    this.isoZ += 5;
-		});
-
-		tile.on('pointerout', function() {
-		    this.clearTint();
-		    this.isoZ -= 5;
-		});
-	    }
-	}
-    }
-
     update(time, delta) {
+	this.children.bringToTop(this.player)
     }
 }
