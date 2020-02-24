@@ -10,11 +10,14 @@ export default class World {
 		this.create(0, 0, 10, 10)
     }
     create(offsetX, offsetY, sizeX, sizeY){
+    	this.offsetX = offsetX
+    	this.offsetY = offsetY
+
 		for (var x = 0; x < sizeX; x++){
 	        for (var y = 0; y < sizeY; y++){
 				var tx = offsetX + (x-y) * (this.tileSizeX/2)
 				var ty = offsetY + (x+y) * (-2 + this.tileSizeY/2)
-				var tile = this.scene.add.image(tx, ty, 'sprites', 'tile',this.group)
+				var tile = this.scene.add.image(tx, ty, 'sprites', 'tile.png',this.group)
 
 				tile.setDepth(ty)
 
@@ -25,7 +28,7 @@ export default class World {
 		}
     }
     coordToPixel( x, y ){
-		return [this.tileSizeX * x - this.tileSizeX/2,
-			this.tileSizeY * y - this.tileSizeY/2]
+		return [this.offsetX + (x-y) * (this.tileSizeX/2),
+				-this.tileSizeY/2 + this.offsetY + (x+y) * (-2 + this.tileSizeY/2)]
 	    }
 }

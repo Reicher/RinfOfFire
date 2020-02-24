@@ -11,16 +11,18 @@ export default class GameScene extends Phaser.Scene {
 	console.log("GameScene - preload");
     }
     create() {
-	console.log("GameScene - create");
+    	console.log("GameScene - create");
 
-	// Add some tiles to our scene
-	this.world = new World(this, 10)
-	let start = this.world.coordToPixel(9, 9)
-	console.log(start)
-	//this.player = this.add.isoSprite(start[0], start[1], start[2], 'spritesheet', 'player-0', this.isoGroup);
+    	// Add some tiles to our scene
+    	this.world = new World(this, 10)
+    	let start = this.world.coordToPixel(1, 1)
+    	console.log(start)
+    	this.player = this.add.image(start[0], start[1], 'sprites', 'player-2.png', this.isoGroup)
+
+        this.cameras.main.startFollow(this.player);
     }
 
     update(time, delta) {
-	this.children.bringToTop(this.player)
+        this.children.bringToTop(this.player)
     }
 }
