@@ -1,34 +1,55 @@
 export default class World {
-    constructor(scene, size) {
+    constructor(scene, size, player) {
 		this.group = scene.add.group()
 		this.grid = new Array(size)
 		this.tileSizeX = 70
 		this.tileSizeY = 40
+
 		this.scene = scene
 
-		//this.create(size)
-		this.create(0, 0, 10, 10)
+		this.player = player
+		this.player.setOrigin(0.5, 1)
+
+		this.create(10, 10)
     }
-    create(offsetX, offsetY, sizeX, sizeY){
-    	this.offsetX = offsetX
-    	this.offsetY = offsetY
+    create(sizeX, sizeY){
 
 		for (var x = 0; x < sizeX; x++){
 	        for (var y = 0; y < sizeY; y++){
-				var tx = offsetX + (x-y) * (this.tileSizeX/2)
-				var ty = offsetY + (x+y) * (-2 + this.tileSizeY/2)
-				var tile = this.scene.add.image(tx, ty, 'sprites', 'tile.png',this.group)
-
-				tile.setDepth(ty)
+				var snapped = this.coordToPixel(x, y)
+				var tile = this.scene.add.image(snapped[0], snapped[1], 'sprites', 'tile.png',this.group)
+				tile.setData('row', x)
+				tile.setData('col', y)			
+				tile.setData('world', this)
+				tile.setDepth(snapped[1])
 
 				tile.setInteractive()
+				this.scene.input.on('gameobjectdown',this.moveTo)
 				tile.on('pointerover', function(){ this.setTint(0x888888) })
 				tile.on('pointerout', function(){ this.clearTint() })
 	        }
-		}
+		} 
+    }
+    moveTo(pointer,tile)
+    {
+    	//Only the closeest ones
+    	var dist = Math.abs(tile.getData('row') - tile.getData('world').player.x) + 
+    		    Math.abs(tile.getData('col') - tile.getData('world').player.y)
+    	if (dist > 4)
+    		return
+
+
+		var pixelPos = tile.getData('world').coordToPixel(tile.getData('row'), tile.getData('col'))
+	    var tween = this.scene.tweens.add({
+	        targets: this.scene.player,
+	        x: pixelPos[0],
+	        y: pixelPos[1],
+	        ease: 'Linear',
+	        duration: 300
+	    });
     }
     coordToPixel( x, y ){
-		return [this.offsetX + (x-y) * (this.tileSizeX/2),
-				-this.tileSizeY/2 + this.offsetY + (x+y) * (-2 + this.tileSizeY/2)]
+		return [ (x-y) * (this.tileSizeX/2),
+				 (x+y) * (this.tileSizeY/2)]
 	    }
 }

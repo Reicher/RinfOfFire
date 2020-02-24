@@ -12,13 +12,13 @@ export default class GameScene extends Phaser.Scene {
     }
     create() {
     	console.log("GameScene - create");
+    
+    	this.player = this.add.image(0, 0, 
+                                     'sprites', 
+                                     'player-2.png', 
+                                     this.isoGroup)
 
-    	// Add some tiles to our scene
-    	this.world = new World(this, 10)
-    	let start = this.world.coordToPixel(1, 1)
-    	console.log(start)
-    	this.player = this.add.image(start[0], start[1], 'sprites', 'player-2.png', this.isoGroup)
-
+        this.world = new World(this, 10, this.player)
         this.cameras.main.startFollow(this.player);
     }
 
