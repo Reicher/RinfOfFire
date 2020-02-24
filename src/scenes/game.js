@@ -15,8 +15,8 @@ export default class GameScene extends Phaser.Scene {
 
 	// Add some tiles to our scene
 	this.world = new World(this, 10)
-	let start = this.world.coordToPixel(9, 9, 1)
-	//console.log(start)
+	let start = this.world.coordToPixel(9, 9)
+	console.log(start)
 	//this.player = this.add.isoSprite(start[0], start[1], start[2], 'spritesheet', 'player-0', this.isoGroup);
     }
 
