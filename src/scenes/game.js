@@ -1,4 +1,5 @@
 import World from '../world.js'
+import Player from '../player.js'
 
 export default class GameScene extends Phaser.Scene {
     constructor(test) {
@@ -12,12 +13,8 @@ export default class GameScene extends Phaser.Scene {
     }
     create() {
     	console.log("GameScene - create");
-    
-    	this.player = this.add.image(0, 0, 
-                                     'sprites', 
-                                     'player-2.png', 
-                                     this.isoGroup)
 
+	this.player = new Player(this, 0, 0)
         this.world = new World(this, 10, this.player)
         this.cameras.main.startFollow(this.player);
     }
