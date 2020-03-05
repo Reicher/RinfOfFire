@@ -1,3 +1,5 @@
+import Tile from './tile.js'
+
 export default class World {
     constructor(scene, size, player) {
 	this.group = scene.add.group()
@@ -16,31 +18,26 @@ export default class World {
 	for (var x = 0; x < sizeX; x++){
 	    for (var y = 0; y < sizeY; y++){
 		var snapped = this.coordToPixel(x, y)
-		var tile = this.scene.add.image(snapped[0], snapped[1], 'sprites', 'tile.png',this.group)
-		tile.setData('row', x)
-		tile.setData('col', y)
-		tile.setData('world', this)
-		tile.setDepth(snapped[1])
+		var tile = new Tile(this.scene, snapped[0], snapped[1])
+		tile.row = x
+		tile.col = y
+		tile.world = this
 
-		tile.setInteractive()
 		this.scene.input.on('gameobjectdown',this.moveTo)
-		tile.on('pointerover', function(){ this.setTint(0x888888) })
-		tile.on('pointerout', function(){ this.clearTint() })
 	    }
 	}
     }
     moveTo(pointer,tile)
     {
     	//Only the closeest ones
-	var playerCoord = tile.getData('world').pixelToCoord(tile.getData('world').player.x,
-				       tile.getData('world').player.y)
-    	var dist_x = Math.abs(tile.getData('row') - playerCoord[0])
-    	var dist_y = Math.abs(tile.getData('col') - playerCoord[1])
+	var playerCoord = tile.world.pixelToCoord(tile.world.player.x,
+				       tile.world.player.y)
+    	var dist_x = Math.abs(tile.row - playerCoord[0])
+    	var dist_y = Math.abs(tile.col - playerCoord[1])
     	if ((dist_x + dist_y) > 4)
     	    return
 
-	var pixelPos = tile.getData('world').coordToPixel(tile.getData('row'),
-							  tile.getData('col'))
+	var pixelPos = tile.world.coordToPixel(tile.row, tile.col)
 	this.scene.tweens.add({
 	    targets: this.scene.player,
 	    x: pixelPos[0],
