@@ -1,9 +1,8 @@
 import Tile from './tile.js'
 
 export default class World {
-    constructor(scene, size, player) {
+    constructor(scene, player) {
 	this.group = scene.add.group()
-	this.grid = new Array(size)
 	this.tileSizeX = 70
 	this.tileSizeY = 40
 
@@ -11,21 +10,27 @@ export default class World {
 
 	this.player = player
 
-	this.create(10, 10)
+	this.loadTestMap()
     }
-    create(sizeX, sizeY){
+    loadTestMap(){
+	var size = 10
 
-	for (var x = 0; x < sizeX; x++){
-	    for (var y = 0; y < sizeY; y++){
+	this.grid = new Array(size)
+	for (var x = 0; x < size; x++){
+	    this.grid[x] = new Array(size)
+	    for (var y = 0; y < size; y++){
+		this.grid[x][y] = new Array(size)
+
 		var snapped = this.coordToPixel(x, y)
 		var tile = new Tile(this.scene, snapped[0], snapped[1])
-		tile.row = x
-		tile.col = y
-		tile.world = this
+		this.grid[x][y][0] = tile
+		//tile.x = x*10
+		//tile.y = y*10
 
-		this.scene.input.on('gameobjectdown',this.moveTo)
+		//this.scene.input.on('gameobjectdown',this.moveTo)
 	    }
 	}
+	this.origin = this.grid[size/2][size/2][0]
     }
     moveTo(pointer,tile)
     {
@@ -49,9 +54,5 @@ export default class World {
     coordToPixel( x, y ){
 	return [ (x-y) * (this.tileSizeX/2),
 		 (x+y) * (this.tileSizeY/2)]
-    }
-    pixelToCoord( x, y ){
-	return [ (x-y) / (this.tileSizeX/2),
-		 (x+y) / (this.tileSizeY/2)]
     }
 }

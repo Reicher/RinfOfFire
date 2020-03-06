@@ -8,9 +8,9 @@ export default class Tile extends Phaser.GameObjects.Sprite {
 	this.row = 0
 	this.col = 0
 
-	this.setInteractive()
-	this.on('pointerover', function(){ this.setTint(0x888888) })
-	this.on('pointerout', function(){ this.clearTint() })
+	//this.setInteractive()
+	//this.on('pointerover', function(){ this.setTint(0x888888) })
+	//this.on('pointerout', function(){ this.clearTint() })
 
 	//group.add(this)
     }
