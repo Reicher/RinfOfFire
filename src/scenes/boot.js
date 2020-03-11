@@ -19,7 +19,7 @@ export default class BootScene extends Phaser.Scene {
 			      60);
         });
 
-	this.load.multiatlas('sprites',
+	this.load.multiatlas('tiles',
 			     './src/assets/spritesheet.json',
 			     './src/assets');
 

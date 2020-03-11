@@ -1,6 +1,6 @@
 export default class Tile extends Phaser.GameObjects.Sprite {
-    constructor(scene, x, y) {
-        super(scene, 0, 0, 'sprites', 'tile.png')
+    constructor(scene, x, y, sprite) {
+        super(scene, 0, 0, 'tiles', sprite)
 
 	scene.add.existing(this)
 

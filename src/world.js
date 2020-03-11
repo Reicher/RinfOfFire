@@ -1,4 +1,4 @@
-import Tile from './tile.js'
+import Solid from './solid.js'
 
 export default class World {
     constructor(scene) {
@@ -21,7 +21,7 @@ export default class World {
 		this.grid[x][y] = new Array(size)
 
 		var snapped = this.coordToPixel(x, y)
-		var tile = new Tile(this.scene, x, y)
+		var tile = new Solid(this.scene, x, y)
 		this.grid[x][y][0] = tile
 		tile.x = snapped[0]
 		tile.y = snapped[1]
