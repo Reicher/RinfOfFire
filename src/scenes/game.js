@@ -1,5 +1,6 @@
 import World from '../world.js'
 import Player from '../player.js'
+import Action from '../action.js'
 
 export default class GameScene extends Phaser.Scene {
     constructor(test) {
@@ -17,28 +18,16 @@ export default class GameScene extends Phaser.Scene {
 	this.player = new Player(this)
         this.world = new World(this)
 	this.cameras.main.startFollow(this.player);
+
+	this.input.on('gameobjectdown',this.clicked)
     }
 
     // TODO: Remove and change to action.Move(direction)
-    moveTo(pointer,tile)
+    clicked(pointer,tile)
     {
-    	// //Only the closeest ones
-    	var dist_x = Math.abs(tile.row - this.scene.player.row)
-    	var dist_y = Math.abs(tile.col - this.scene.player.col)
-    	if ((dist_x + dist_y) > 1)
-    	    return
-
-	this.scene.tweens.add({
-	    targets: this.scene.player,
-	    x: tile.x,
-	    y: tile.y,
-	    ease: 'Linear',
-	    duration: 300,
-	    onComplete: this.scene.player.setPos,
-	    onCompleteScope: this.scene.player,
-	    onCompleteParams: [tile.row, tile.col],
-	});
-	// TODO: Update player pos when tween is done
+	tile.scene.player.setAction(new Action('move',
+					       tile.row,
+					       tile.col))
     }
 
     update(time, delta) {
@@ -48,5 +37,17 @@ export default class GameScene extends Phaser.Scene {
 	// Go through all grid tiles actions
 	// and check if they are valid, create
 	// tweens for them and increment turn-num!
+	if( this.player.action ){
+	    switch(this.player.action.type){
+	    case Action.TYPE.MOVE:
+		this.world.move(this.player,
+				this.player.action.row,
+				this.player.action.col)
+		break;
+	    default:
+		console.log("Game: Unknown action type")
+	    }
+	    this.player.action = null
+	}
     }
 }
