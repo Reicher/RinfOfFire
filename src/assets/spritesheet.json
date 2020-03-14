@@ -4,32 +4,11 @@
 			"image": "spritesheet.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 120,
-				"h": 245
+				"w": 495,
+				"h": 608
 			},
 			"scale": 1,
 			"frames": [
-				{
-					"filename": "tile.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 70,
-						"h": 40
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 70,
-						"h": 40
-					},
-					"frame": {
-						"x": 1,
-						"y": 1,
-						"w": 70,
-						"h": 40
-					}
-				},
 				{
 					"filename": "player-0.png",
 					"rotated": false,
@@ -45,14 +24,14 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 1,
-						"y": 43,
+						"x": 0,
+						"y": 0,
 						"w": 19,
 						"h": 32
 					}
 				},
 				{
-					"filename": "player-10.png",
+					"filename": "player-1.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -66,29 +45,8 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 73,
-						"y": 1,
-						"w": 19,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-11.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
+						"x": 19,
 						"y": 0,
-						"w": 19,
-						"h": 32
-					},
-					"frame": {
-						"x": 1,
-						"y": 77,
 						"w": 19,
 						"h": 32
 					}
@@ -108,14 +66,14 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 22,
-						"y": 43,
+						"x": 38,
+						"y": 0,
 						"w": 19,
 						"h": 32
 					}
 				},
 				{
-					"filename": "player-20.png",
+					"filename": "player-3.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -129,178 +87,10 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 94,
-						"y": 1,
-						"w": 19,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-21.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
+						"x": 57,
 						"y": 0,
 						"w": 19,
 						"h": 32
-					},
-					"frame": {
-						"x": 1,
-						"y": 111,
-						"w": 19,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-22.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 19,
-						"h": 32
-					},
-					"frame": {
-						"x": 22,
-						"y": 77,
-						"w": 19,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-23.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 19,
-						"h": 32
-					},
-					"frame": {
-						"x": 43,
-						"y": 43,
-						"w": 19,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-24.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 19,
-						"h": 32
-					},
-					"frame": {
-						"x": 1,
-						"y": 145,
-						"w": 19,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-25.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 19,
-						"h": 32
-					},
-					"frame": {
-						"x": 22,
-						"y": 111,
-						"w": 19,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-26.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 19,
-						"h": 32
-					},
-					"frame": {
-						"x": 43,
-						"y": 77,
-						"w": 19,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-27.png",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 19,
-						"h": 32
-					},
-					"frame": {
-						"x": 1,
-						"y": 179,
-						"w": 19,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-28.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 1,
-						"w": 17,
-						"h": 31
-					},
-					"frame": {
-						"x": 1,
-						"y": 213,
-						"w": 17,
-						"h": 31
 					}
 				},
 				{
@@ -318,8 +108,8 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 22,
-						"y": 145,
+						"x": 76,
+						"y": 0,
 						"w": 19,
 						"h": 32
 					}
@@ -339,8 +129,8 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 43,
-						"y": 111,
+						"x": 95,
+						"y": 0,
 						"w": 19,
 						"h": 32
 					}
@@ -360,52 +150,10 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 22,
-						"y": 179,
+						"x": 114,
+						"y": 0,
 						"w": 19,
 						"h": 32
-					}
-				},
-				{
-					"filename": "player-30.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 1,
-						"w": 17,
-						"h": 31
-					},
-					"frame": {
-						"x": 20,
-						"y": 213,
-						"w": 17,
-						"h": 31
-					}
-				},
-				{
-					"filename": "player-31.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 1,
-						"w": 17,
-						"h": 31
-					},
-					"frame": {
-						"x": 39,
-						"y": 213,
-						"w": 17,
-						"h": 31
 					}
 				},
 				{
@@ -423,8 +171,8 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 43,
-						"y": 145,
+						"x": 133,
+						"y": 0,
 						"w": 19,
 						"h": 32
 					}
@@ -444,157 +192,10 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 43,
-						"y": 179,
-						"w": 19,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-32.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 1,
-						"w": 17,
-						"h": 31
-					},
-					"frame": {
-						"x": 58,
-						"y": 213,
-						"w": 17,
-						"h": 31
-					}
-				},
-				{
-					"filename": "player-1.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
+						"x": 152,
 						"y": 0,
-						"w": 17,
-						"h": 32
-					},
-					"frame": {
-						"x": 64,
-						"y": 43,
-						"w": 17,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-12.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
 						"w": 19,
 						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 0,
-						"w": 17,
-						"h": 32
-					},
-					"frame": {
-						"x": 64,
-						"y": 77,
-						"w": 17,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-13.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 0,
-						"w": 17,
-						"h": 32
-					},
-					"frame": {
-						"x": 64,
-						"y": 111,
-						"w": 17,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-14.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 0,
-						"w": 17,
-						"h": 32
-					},
-					"frame": {
-						"x": 64,
-						"y": 145,
-						"w": 17,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-15.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 0,
-						"w": 17,
-						"h": 32
-					},
-					"frame": {
-						"x": 64,
-						"y": 179,
-						"w": 17,
-						"h": 32
-					}
-				},
-				{
-					"filename": "player-34.png",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 19,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 1,
-						"w": 17,
-						"h": 31
-					},
-					"frame": {
-						"x": 77,
-						"y": 213,
-						"w": 17,
-						"h": 31
 					}
 				},
 				{
@@ -612,8 +213,134 @@
 						"h": 32
 					},
 					"frame": {
-						"x": 83,
-						"y": 35,
+						"x": 171,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 190,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 209,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 228,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 247,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 266,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 285,
+						"y": 0,
 						"w": 19,
 						"h": 32
 					}
@@ -621,169 +348,1954 @@
 				{
 					"filename": "player-16.png",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
 						"w": 19,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 1,
+						"x": 0,
 						"y": 0,
-						"w": 17,
+						"w": 19,
 						"h": 32
 					},
 					"frame": {
-						"x": 83,
-						"y": 69,
-						"w": 17,
+						"x": 304,
+						"y": 0,
+						"w": 19,
 						"h": 32
 					}
 				},
 				{
 					"filename": "player-17.png",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
 						"w": 19,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 1,
+						"x": 0,
 						"y": 0,
-						"w": 17,
+						"w": 19,
 						"h": 32
 					},
 					"frame": {
-						"x": 102,
-						"y": 69,
-						"w": 17,
+						"x": 323,
+						"y": 0,
+						"w": 19,
 						"h": 32
 					}
 				},
 				{
 					"filename": "player-18.png",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
 						"w": 19,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 1,
+						"x": 0,
 						"y": 0,
-						"w": 17,
+						"w": 19,
 						"h": 32
 					},
 					"frame": {
-						"x": 83,
-						"y": 103,
-						"w": 17,
+						"x": 342,
+						"y": 0,
+						"w": 19,
 						"h": 32
 					}
 				},
 				{
 					"filename": "player-19.png",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
 						"w": 19,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 1,
+						"x": 0,
 						"y": 0,
-						"w": 17,
+						"w": 19,
 						"h": 32
 					},
 					"frame": {
-						"x": 102,
-						"y": 103,
-						"w": 17,
+						"x": 361,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 380,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 399,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 418,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 437,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-24.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 456,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-25.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 475,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-26.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 0,
+						"y": 32,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-27.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 19,
+						"y": 32,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-28.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 38,
+						"y": 32,
+						"w": 19,
 						"h": 32
 					}
 				},
 				{
 					"filename": "player-29.png",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
 						"w": 19,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 1,
+						"x": 0,
 						"y": 0,
-						"w": 17,
+						"w": 19,
 						"h": 32
 					},
 					"frame": {
-						"x": 83,
-						"y": 137,
-						"w": 17,
+						"x": 57,
+						"y": 32,
+						"w": 19,
 						"h": 32
 					}
 				},
 				{
-					"filename": "player-3.png",
+					"filename": "player-30.png",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
 						"w": 19,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 1,
+						"x": 0,
 						"y": 0,
-						"w": 17,
+						"w": 19,
 						"h": 32
 					},
 					"frame": {
-						"x": 102,
-						"y": 137,
-						"w": 17,
+						"x": 76,
+						"y": 32,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-31.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 95,
+						"y": 32,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-32.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 114,
+						"y": 32,
+						"w": 19,
 						"h": 32
 					}
 				},
 				{
 					"filename": "player-33.png",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
 						"w": 19,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 1,
+						"x": 0,
 						"y": 0,
-						"w": 17,
+						"w": 19,
 						"h": 32
 					},
 					"frame": {
-						"x": 83,
-						"y": 171,
-						"w": 17,
+						"x": 133,
+						"y": 32,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "player-34.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
+					},
+					"frame": {
+						"x": 152,
+						"y": 32,
+						"w": 19,
 						"h": 32
 					}
 				},
 				{
 					"filename": "player-35.png",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
 						"w": 19,
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 1,
-						"y": 1,
-						"w": 17,
-						"h": 31
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 32
 					},
 					"frame": {
-						"x": 102,
-						"y": 171,
-						"w": 17,
-						"h": 31
+						"x": 171,
+						"y": 32,
+						"w": 19,
+						"h": 32
+					}
+				},
+				{
+					"filename": "puppet1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 190,
+						"y": 32,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 245,
+						"y": 32,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 300,
+						"y": 32,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 355,
+						"y": 32,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 410,
+						"y": 32,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 0,
+						"y": 96,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 55,
+						"y": 96,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 110,
+						"y": 96,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet9.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 165,
+						"y": 96,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet10.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 220,
+						"y": 96,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet11.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 275,
+						"y": 96,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet12.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 330,
+						"y": 96,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet13.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 385,
+						"y": 96,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet14.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 440,
+						"y": 96,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet15.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 0,
+						"y": 160,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet16.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 55,
+						"y": 160,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet17.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 110,
+						"y": 160,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet18.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 165,
+						"y": 160,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet19.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 220,
+						"y": 160,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet20.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 275,
+						"y": 160,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet21.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 330,
+						"y": 160,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet22.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 385,
+						"y": 160,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet23.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 440,
+						"y": 160,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet24.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 0,
+						"y": 224,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet25.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 55,
+						"y": 224,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet26.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 110,
+						"y": 224,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet27.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 165,
+						"y": 224,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet28.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 220,
+						"y": 224,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet29.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 275,
+						"y": 224,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet30.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 330,
+						"y": 224,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet31.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 385,
+						"y": 224,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet32.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 440,
+						"y": 224,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet33.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 0,
+						"y": 288,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet34.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 55,
+						"y": 288,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet35.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 110,
+						"y": 288,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet36.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 165,
+						"y": 288,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet37.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 220,
+						"y": 288,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet38.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 275,
+						"y": 288,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet39.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 330,
+						"y": 288,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet40.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 385,
+						"y": 288,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet41.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 440,
+						"y": 288,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet42.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 0,
+						"y": 352,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet43.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 55,
+						"y": 352,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet44.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 110,
+						"y": 352,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet45.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 165,
+						"y": 352,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet46.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 220,
+						"y": 352,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet47.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 275,
+						"y": 352,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet48.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 330,
+						"y": 352,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet49.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 385,
+						"y": 352,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet50.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 440,
+						"y": 352,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet51.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 0,
+						"y": 416,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet52.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 55,
+						"y": 416,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet53.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 110,
+						"y": 416,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet54.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 165,
+						"y": 416,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet55.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 220,
+						"y": 416,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet56.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 275,
+						"y": 416,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet57.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 330,
+						"y": 416,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet58.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 385,
+						"y": 416,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet59.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 440,
+						"y": 416,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet60.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 0,
+						"y": 480,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet61.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 55,
+						"y": 480,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet62.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 110,
+						"y": 480,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet63.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 165,
+						"y": 480,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet64.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 220,
+						"y": 480,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet65.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 275,
+						"y": 480,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet66.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 330,
+						"y": 480,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet67.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 385,
+						"y": 480,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet68.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 440,
+						"y": 480,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet69.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 0,
+						"y": 544,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet70.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 55,
+						"y": 544,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet71.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 110,
+						"y": 544,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "puppet72.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 55,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 55,
+						"h": 64
+					},
+					"frame": {
+						"x": 165,
+						"y": 544,
+						"w": 55,
+						"h": 64
+					}
+				},
+				{
+					"filename": "tile.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 70,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 70,
+						"h": 40
+					},
+					"frame": {
+						"x": 220,
+						"y": 544,
+						"w": 70,
+						"h": 40
 					}
 				}
 			]
@@ -792,6 +2304,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:cc3e0e8319f5db09f392fe37425fc772:197032e5222f1ac42917532bf0eaf840:729adc6043343cfda41c447ce8f464d6$"
+		"smartupdate": "$TexturePacker:SmartUpdate:8f9ed2771098cfe4b9ca54c40cc59bbb:20af85f62970a9278a61d71d16d5eafd:729adc6043343cfda41c447ce8f464d6$"
 	}
 }

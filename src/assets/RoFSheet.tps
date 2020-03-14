@@ -34,7 +34,7 @@
         <key>dataFormat</key>
         <string>phaser</string>
         <key>textureFileName</key>
-        <filename></filename>
+        <filename>spritesheet.png</filename>
         <key>flipPVR</key>
         <false/>
         <key>pvrCompressionQuality</key>
@@ -74,7 +74,7 @@
         <key>jpgQuality</key>
         <uint>80</uint>
         <key>pngOptimizationLevel</key>
-        <uint>1</uint>
+        <uint>0</uint>
         <key>webpQualityLevel</key>
         <uint>101</uint>
         <key>textureSubPath</key>
@@ -102,7 +102,7 @@
         <key>algorithmSettings</key>
         <struct type="AlgorithmSettings">
             <key>algorithm</key>
-            <enum type="AlgorithmSettings::AlgorithmId">MaxRects</enum>
+            <enum type="AlgorithmSettings::AlgorithmId">Basic</enum>
             <key>freeSizeMode</key>
             <enum type="AlgorithmSettings::AlgorithmFreeSizeMode">Best</enum>
             <key>sizeConstraints</key>
@@ -163,13 +163,13 @@
             <key>scaleMode</key>
             <enum type="ScaleMode">Smooth</enum>
             <key>extrude</key>
-            <uint>1</uint>
+            <uint>0</uint>
             <key>trimThreshold</key>
             <uint>1</uint>
             <key>trimMargin</key>
             <uint>1</uint>
             <key>trimMode</key>
-            <enum type="SpriteSettings::TrimMode">Trim</enum>
+            <enum type="SpriteSettings::TrimMode">None</enum>
             <key>tracerTolerance</key>
             <int>200</int>
             <key>heuristicMask</key>
@@ -181,42 +181,42 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">raw/player-0.png</key>
-            <key type="filename">raw/player-1.png</key>
-            <key type="filename">raw/player-10.png</key>
-            <key type="filename">raw/player-11.png</key>
-            <key type="filename">raw/player-12.png</key>
-            <key type="filename">raw/player-13.png</key>
-            <key type="filename">raw/player-14.png</key>
-            <key type="filename">raw/player-15.png</key>
-            <key type="filename">raw/player-16.png</key>
-            <key type="filename">raw/player-17.png</key>
-            <key type="filename">raw/player-18.png</key>
-            <key type="filename">raw/player-19.png</key>
-            <key type="filename">raw/player-2.png</key>
-            <key type="filename">raw/player-20.png</key>
-            <key type="filename">raw/player-21.png</key>
-            <key type="filename">raw/player-22.png</key>
-            <key type="filename">raw/player-23.png</key>
-            <key type="filename">raw/player-24.png</key>
-            <key type="filename">raw/player-25.png</key>
-            <key type="filename">raw/player-26.png</key>
-            <key type="filename">raw/player-27.png</key>
-            <key type="filename">raw/player-28.png</key>
-            <key type="filename">raw/player-29.png</key>
-            <key type="filename">raw/player-3.png</key>
-            <key type="filename">raw/player-30.png</key>
-            <key type="filename">raw/player-31.png</key>
-            <key type="filename">raw/player-32.png</key>
-            <key type="filename">raw/player-33.png</key>
-            <key type="filename">raw/player-34.png</key>
-            <key type="filename">raw/player-35.png</key>
-            <key type="filename">raw/player-4.png</key>
-            <key type="filename">raw/player-5.png</key>
-            <key type="filename">raw/player-6.png</key>
-            <key type="filename">raw/player-7.png</key>
-            <key type="filename">raw/player-8.png</key>
-            <key type="filename">raw/player-9.png</key>
+            <key type="filename">raw/knug/player-0.png</key>
+            <key type="filename">raw/knug/player-1.png</key>
+            <key type="filename">raw/knug/player-10.png</key>
+            <key type="filename">raw/knug/player-11.png</key>
+            <key type="filename">raw/knug/player-12.png</key>
+            <key type="filename">raw/knug/player-13.png</key>
+            <key type="filename">raw/knug/player-14.png</key>
+            <key type="filename">raw/knug/player-15.png</key>
+            <key type="filename">raw/knug/player-16.png</key>
+            <key type="filename">raw/knug/player-17.png</key>
+            <key type="filename">raw/knug/player-18.png</key>
+            <key type="filename">raw/knug/player-19.png</key>
+            <key type="filename">raw/knug/player-2.png</key>
+            <key type="filename">raw/knug/player-20.png</key>
+            <key type="filename">raw/knug/player-21.png</key>
+            <key type="filename">raw/knug/player-22.png</key>
+            <key type="filename">raw/knug/player-23.png</key>
+            <key type="filename">raw/knug/player-24.png</key>
+            <key type="filename">raw/knug/player-25.png</key>
+            <key type="filename">raw/knug/player-26.png</key>
+            <key type="filename">raw/knug/player-27.png</key>
+            <key type="filename">raw/knug/player-28.png</key>
+            <key type="filename">raw/knug/player-29.png</key>
+            <key type="filename">raw/knug/player-3.png</key>
+            <key type="filename">raw/knug/player-30.png</key>
+            <key type="filename">raw/knug/player-31.png</key>
+            <key type="filename">raw/knug/player-32.png</key>
+            <key type="filename">raw/knug/player-33.png</key>
+            <key type="filename">raw/knug/player-34.png</key>
+            <key type="filename">raw/knug/player-35.png</key>
+            <key type="filename">raw/knug/player-4.png</key>
+            <key type="filename">raw/knug/player-5.png</key>
+            <key type="filename">raw/knug/player-6.png</key>
+            <key type="filename">raw/knug/player-7.png</key>
+            <key type="filename">raw/knug/player-8.png</key>
+            <key type="filename">raw/knug/player-9.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -228,6 +228,92 @@
                 <rect>5,8,9,16</rect>
                 <key>scale9Paddings</key>
                 <rect>5,8,9,16</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
+            <key type="filename">raw/puppet/puppet1.png</key>
+            <key type="filename">raw/puppet/puppet10.png</key>
+            <key type="filename">raw/puppet/puppet11.png</key>
+            <key type="filename">raw/puppet/puppet12.png</key>
+            <key type="filename">raw/puppet/puppet13.png</key>
+            <key type="filename">raw/puppet/puppet14.png</key>
+            <key type="filename">raw/puppet/puppet15.png</key>
+            <key type="filename">raw/puppet/puppet16.png</key>
+            <key type="filename">raw/puppet/puppet17.png</key>
+            <key type="filename">raw/puppet/puppet18.png</key>
+            <key type="filename">raw/puppet/puppet19.png</key>
+            <key type="filename">raw/puppet/puppet2.png</key>
+            <key type="filename">raw/puppet/puppet20.png</key>
+            <key type="filename">raw/puppet/puppet21.png</key>
+            <key type="filename">raw/puppet/puppet22.png</key>
+            <key type="filename">raw/puppet/puppet23.png</key>
+            <key type="filename">raw/puppet/puppet24.png</key>
+            <key type="filename">raw/puppet/puppet25.png</key>
+            <key type="filename">raw/puppet/puppet26.png</key>
+            <key type="filename">raw/puppet/puppet27.png</key>
+            <key type="filename">raw/puppet/puppet28.png</key>
+            <key type="filename">raw/puppet/puppet29.png</key>
+            <key type="filename">raw/puppet/puppet3.png</key>
+            <key type="filename">raw/puppet/puppet30.png</key>
+            <key type="filename">raw/puppet/puppet31.png</key>
+            <key type="filename">raw/puppet/puppet32.png</key>
+            <key type="filename">raw/puppet/puppet33.png</key>
+            <key type="filename">raw/puppet/puppet34.png</key>
+            <key type="filename">raw/puppet/puppet35.png</key>
+            <key type="filename">raw/puppet/puppet36.png</key>
+            <key type="filename">raw/puppet/puppet37.png</key>
+            <key type="filename">raw/puppet/puppet38.png</key>
+            <key type="filename">raw/puppet/puppet39.png</key>
+            <key type="filename">raw/puppet/puppet4.png</key>
+            <key type="filename">raw/puppet/puppet40.png</key>
+            <key type="filename">raw/puppet/puppet41.png</key>
+            <key type="filename">raw/puppet/puppet42.png</key>
+            <key type="filename">raw/puppet/puppet43.png</key>
+            <key type="filename">raw/puppet/puppet44.png</key>
+            <key type="filename">raw/puppet/puppet45.png</key>
+            <key type="filename">raw/puppet/puppet46.png</key>
+            <key type="filename">raw/puppet/puppet47.png</key>
+            <key type="filename">raw/puppet/puppet48.png</key>
+            <key type="filename">raw/puppet/puppet49.png</key>
+            <key type="filename">raw/puppet/puppet5.png</key>
+            <key type="filename">raw/puppet/puppet50.png</key>
+            <key type="filename">raw/puppet/puppet51.png</key>
+            <key type="filename">raw/puppet/puppet52.png</key>
+            <key type="filename">raw/puppet/puppet53.png</key>
+            <key type="filename">raw/puppet/puppet54.png</key>
+            <key type="filename">raw/puppet/puppet55.png</key>
+            <key type="filename">raw/puppet/puppet56.png</key>
+            <key type="filename">raw/puppet/puppet57.png</key>
+            <key type="filename">raw/puppet/puppet58.png</key>
+            <key type="filename">raw/puppet/puppet59.png</key>
+            <key type="filename">raw/puppet/puppet6.png</key>
+            <key type="filename">raw/puppet/puppet60.png</key>
+            <key type="filename">raw/puppet/puppet61.png</key>
+            <key type="filename">raw/puppet/puppet62.png</key>
+            <key type="filename">raw/puppet/puppet63.png</key>
+            <key type="filename">raw/puppet/puppet64.png</key>
+            <key type="filename">raw/puppet/puppet65.png</key>
+            <key type="filename">raw/puppet/puppet66.png</key>
+            <key type="filename">raw/puppet/puppet67.png</key>
+            <key type="filename">raw/puppet/puppet68.png</key>
+            <key type="filename">raw/puppet/puppet69.png</key>
+            <key type="filename">raw/puppet/puppet7.png</key>
+            <key type="filename">raw/puppet/puppet70.png</key>
+            <key type="filename">raw/puppet/puppet71.png</key>
+            <key type="filename">raw/puppet/puppet72.png</key>
+            <key type="filename">raw/puppet/puppet8.png</key>
+            <key type="filename">raw/puppet/puppet9.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>spriteScale</key>
+                <double>1</double>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>14,16,27,32</rect>
+                <key>scale9Paddings</key>
+                <rect>14,16,27,32</rect>
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
@@ -249,7 +335,9 @@
         </map>
         <key>fileList</key>
         <array>
-            <filename>raw</filename>
+            <filename>raw/tile.png</filename>
+            <filename>raw/knug</filename>
+            <filename>raw/puppet</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
